@@ -5,9 +5,18 @@ body {
 main {
     margin: 10px auto;
     border: 2px solid #945000;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+
 
 }
-
+aside {
+    margin: 5px auto;
+    border: 1px solid #945000;
+    height: auto;
+}
 section {
     background-color:#FFCE93;
     width: 100%;
@@ -24,12 +33,11 @@ section {
 }
 .title h1,.title h3 {
     position: relative;
-    center: 50%;
+    font-family: serif;
     color: #E07A00;
-    left: 35%;
+    left: 100%;
 }
 .title h1 {
-    font-family: serif;
     font-size:xxx-large;
 }
 .title h3 {
