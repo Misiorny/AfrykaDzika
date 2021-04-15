@@ -22,7 +22,7 @@ nav {
     width: 100%;
     max-width: 1920px;
     max-height:40px;
-    border: 2px solid #945000;
+    /*border: 2px solid #945000;*/
     display: flex;
     justify-content: space-between;
 
@@ -30,6 +30,9 @@ nav {
 .navi {
     background: none;
     text-align: center;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
 
 
 }
