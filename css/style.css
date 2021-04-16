@@ -46,24 +46,23 @@ footer {
     margin:0 auto;
     border: 2px solid #945000;
     display:flex;
-    direction: column;
     justify-content: space-around;
     position: fixed;
     bottom: 0;
     align-items: center;
 }
-/*main {*/
-/*    !*margin: 0 auto;*!*/
-/*    border: 2px solid #945000;*/
-/*    width: 100%;*/
-/*    max-width: 1920px;*/
-/*    height: auto;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: space-between;*/
+main {
+    /*margin: 0 auto;*/
+    border: 2px solid #945000;
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
 
-/*}*/
+}
 /*section {*/
 /*    background-color: #FFCE93;*/
 /*    !*margin: 10px auto;*!*/
