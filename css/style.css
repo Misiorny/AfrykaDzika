@@ -1,75 +1,121 @@
 :root {
-    --bg_color:#FFB757;
-    --font_color:#995700;
-    --box_color:#FFA52C;
-    --border_color:#FF682C;
-    __add_color:#77ADD6;
+    --bg_color: #FFCB86;
+    --font_color: #995700;
+    --box_color: #FFA52C;
+    --border_color: #FF682C;
+    __add_color: #77ADD6;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+    font-size: 20px;
+    background-color: var(--bg_color);
 }
+
 .header {
     display: flex;
     flex-direction: column;
-    background-image: url("../pictures/main/tlo.png") ;
+    background-image: url("../pictures/main/tlo.png");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1920px;
-    margin:10px auto;
+    margin: 10px auto;
     font-family: 'Courgette', cursive;
-    /*width: 940px;*/
-    /*height: 300px;*/
-
 
 }
+
 .topbar {
     display: flex;
     width: 100%;
     max-width: 1920px;
 
 }
+
 .topbar__left {
-    margin: 10px;
-    width:100px;
-    height:200px;
+    margin: 10px auto;
+    width: 100px;
+    height: 200px;
 
 
 }
-.topbar__right{
+
+.topbar__right {
     margin: 10px;
-    width:100%;
-    height:200px;
+    width: 100%;
+    height: 200px;
     color: var(--font_color);
     padding: 50px;
     font-size: 3em;
     font-weight: bold;
 }
+
 .topbar__paragraph {
     display: flex;
     justify-content: center;
     text-align: center;
     height: 200px;
 }
+
 .topnav {
+    margin: 10px;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+
 
 }
+
 .topnav__menu {
+    margin: auto 50px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
 
 }
+
 .topnav__item {
+    padding: 5px;
+    text-align: center;
 
 }
+
+.topnav__link {
+    text-decoration: none;
+    color: var(--font_color);
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
 .page {
-    margin:10px auto;
+    margin: 10px auto;
     max-width: 1920px;
 }
+
 .main {
     background-color: var(--box_color);
     border: 1px solid var(--border_color);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1920px;
+    max-height: 200px;
+    margin: 10px auto;
+
+    font-family: 'Courgette', cursive;
+    color: var(--font_color);
+}
+
+.footer__contact {
+    text-align: center;
+    margin: 10px;
+
 }
