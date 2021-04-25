@@ -3,7 +3,9 @@
     --font_color: #995700;
     --box_color: #FFA52C;
     --border_color: #FF682C;
-    __add_color: #77ADD6;
+    --add_color: #FFB757;
+    --hover_color: #0E5184;
+
 }
 
 * {
@@ -21,19 +23,20 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    background-image: url("../pictures/main/tlo.png");
+    background-image: url("../pictures/main/tlo_1920_768.png");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1920px;
+    /*min-height:300px;*/
     margin: 10px auto;
     font-family: 'Courgette', cursive;
 
 }
 
 .topbar {
-    display: flex;
+    display: flex ;
     width: 100%;
-    max-width: 1920px;
+
 
 }
 
@@ -59,11 +62,12 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 200px;
+    height: auto;
 }
 
 .topnav {
-    margin: 10px;
+    margin:  10px ;
+    padding: 0 40px;
     /*display: flex;*/
     /*flex-direction: column;*/
 
@@ -91,6 +95,13 @@ body {
     font-size: 1.25em;
     font-weight: bold;
 }
+.topnav__link:hover {
+    text-decoration: none;
+    color: var(--hover_color);
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+}
 
 .page {
     margin: 10px auto;
@@ -109,13 +120,60 @@ body {
     max-width: 1920px;
     max-height: 200px;
     margin: 10px auto;
-
     font-family: 'Courgette', cursive;
     color: var(--font_color);
+    background-color: var(--add_color);
 }
 
 .footer__contact {
     text-align: center;
     margin: 10px;
 
+}
+/*Responsive Web Design */
+
+@media all and (max-width: 1200px)
+{
+ .topbar {
+     flex-direction: column;
+ }
+ .topbar__paragraph {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+}
+ .topbar__right {
+    margin: 5px;
+    width: 100%;
+    height: auto;
+    color: var(--font_color);
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+    .topnav__menu {
+    margin: auto 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+   .topnav__link {
+    text-decoration: none;
+    /*flex-wrap: wrap;*/
+    color: var(--font_color);
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+.topnav__link:hover {
+    text-decoration: none;
+    /*flex-wrap: wrap;*/
+    color: var(--hover_color);
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: bold;
+}
 }
