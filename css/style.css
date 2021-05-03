@@ -217,10 +217,12 @@ body {
     .slideshow {
         font-size: 10px;
         font-weight: normal;
+
     }
 
-    .slide {
-        max-width: 400px;
+    .slide__img {
+        max-width: 90vw;
+        justify-items: center;
     }
 
 }

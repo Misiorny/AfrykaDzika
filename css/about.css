@@ -1,0 +1,21 @@
+:root {
+    --bg_color: #FFA52C;
+    --font_color: #995700;
+    --box_color: #FFCB86;
+    --border_color: #FF682C;
+    --add_color: #FFB757;
+    --hover_color: #0E5184;
+    --menu_color: #FFCA2C;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    background-color: var(--bg_color);
+}

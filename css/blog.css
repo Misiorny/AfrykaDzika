@@ -43,4 +43,10 @@
     color: var(--menu_color);
     font-size:40px;
 
+
+}
+.slide__name {
+    color: var(--font_color);
+    font-size: 20px;
+
 }
