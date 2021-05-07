@@ -1,52 +1,103 @@
-.article__blog {
+.blog__main {
+    margin: 10px auto;
+    max-width: 1920px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
 }
 
-.article__blog__header {
+.blog__content {
+    width: 80%;
+}
+
+.article__blog {
     width: 100%;
-    max-width: 1920px;
-    margin: 10px;
-    padding: 20px;
-    font-family: 'Courgette', cursive;
-    font-size: 2em;
-    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: var(--box_color);
+    color: var(--font_color);
 }
 
 .article__blog__content {
     display: flex;
+    font-family: 'Open Sans', sans-serif;
     justify-content: space-between;
     padding: 10px;
+
 }
 
 .article__blog__paragraph {
-    padding: 10px;
     margin: auto 10px;
     text-indent: 1em;
     text-align: justify;
 }
 
 .article__footer {
-    margin: 10px auto 10px;
-    font-size: .8em;
+    margin: 10px auto;
 }
 
 .blog__galery {
+    width: 100%;
     display: flex;
     justify-content: center;
-    width: 100%;
+    margin-top: 10px;
+    background-color: var(--box_color);
 }
 
 .slideshow {
     color: var(--menu_color);
-    font-size:40px;
-
-
+    font-size: 3em;
+    position: relative;
 }
+
+.slide {
+    padding: 10px;
+}
+
+
 .slide__name {
     color: var(--font_color);
     font-size: 20px;
+    font-weight: bold;
+}
 
+
+.article__blog__list {
+    display: flex;
+    height: auto;
+    width: 20%;
+    margin: 0 0 0 10px;
+    background-color: var(--box_color);
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.blog__menu {
+    list-style-type: none;
+    font-family: 'Courgette', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.blog__menu__item {
+    color: var(--font_color);
+
+}
+
+.article__blog__link {
+    text-decoration: none;
+    color: var(--font_color);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article__blog__link:hover {
+    color: var(--hover_color);
+}
+
+.blog__menu__item__text__content {
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
 }

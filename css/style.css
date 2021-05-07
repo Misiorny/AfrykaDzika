@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /*border: 1px solid #063A62;*/
 }
 
 body {
@@ -47,7 +48,7 @@ body {
 
 
 .topnav {
-    margin: 10px;
+    /*margin: 10px;*/
     padding: 0 20px;
 }
 
@@ -87,11 +88,13 @@ body {
     font-family: 'Courgette', cursive;
     font-size: 2em;
     font-weight: bold;
+
 }
 
 .article__content {
     display: flex;
     margin: 10px;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -114,8 +117,8 @@ body {
 
 .article__paragraph {
     text-indent: 1em;
-    font-size: 1.25em;
-    font-weight: bold;
+    /*font-size: 1em;*/
+
     text-align: justify;
 
 }
@@ -165,7 +168,7 @@ body {
     }
 
     .article__header {
-        width: 100vw;
+        width: 100%;
         margin: 5px;
         padding: 5px;
         font-family: 'Courgette', cursive;
@@ -200,7 +203,7 @@ body {
 
     .article__footer__paragraph {
         margin: 5px auto;
-        font-size: .5em;
+        font-size: .75em;
     }
 
 
@@ -224,5 +227,6 @@ body {
         max-width: 90vw;
         justify-items: center;
     }
+
 
 }
