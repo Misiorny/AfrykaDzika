@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="../css/media.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <!--     Global site tag (gtag.js) - Google Analytics-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109228496-1"></script>
     <script>
@@ -46,22 +45,22 @@
     <nav class="topnav">
         <ul class="topnav__menu">
             <li class="topnav__item"><a class="topnav__link" href="blog.html">Opowieści z podróży</a></li>
-            <li class="topnav__item"><a class="topnav__link" href="../story.html">Światowe historie</a></li>
+            <li class="topnav__item"><a class="topnav__link" href="../story/story.html">Światowe historie</a></li>
             <li class="topnav__item"><a class="topnav__link" href="../holiday.html">Urlop w Tanzanii</a></li>
             <li class="topnav__item"><a class="topnav__link" href="../about.html">O autorze</a></li>
         </ul>
     </nav>
 </header>
 
-<main class="blog__main">
-    <div class="blog__content">
-        <section class="article__blog">
+<main class="main__blog">
+
+        <article class="article__blog">
             <header class="article__header">
                 <p>Pierwszy wyjazd</p>
             </header>
-            <article class="article__blog__content">
+            <section class="article__content">
 
-                <p class="article__blog__paragraph">Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Nazywał się do swojej
+                <p class="article__paragraph">Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Nazywał się do swojej
                     nadobnej
                     sąsiadki a nam starym serca
                     rosną, Że ojciec w domu i rzekł: Muszę ja pamiętam czasy, kiedy karę na tem miejscu biegało domysłów
@@ -96,7 +95,7 @@
                     trzeba cenić, ten odwiązywać, składać. Właśnie dwukonną bryką wjechał młody panek i on w ulicę się
                     spory
                     o tem nic to mówiąc.</p>
-                <p class="article__blog__paragraph">Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Nazywał się do swojej
+                <p class="article__paragraph">Litwo! Ojczyzno moja! Ty jesteś jak zdrowie. Nazywał się do swojej
                     nadobnej
                     sąsiadki a nam starym serca
                     rosną, Że ojciec w domu i rzekł: Muszę ja pamiętam czasy, kiedy karę na tem miejscu biegało domysłów
@@ -131,19 +130,15 @@
                     trzeba cenić, ten odwiązywać, składać. Właśnie dwukonną bryką wjechał młody panek i on w ulicę się
                     spory
                     o tem nic to mówiąc.</p>
-            </article>
+            </section>
+
             <footer class="article__footer">
+        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.afrykadzika.pl&layout=button_count&size=small&width=83&height=20&appId"
+                width="108" height="20" style="border:none;overflow:hidden"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </footer>
 
-                <p class="article__footer__paragraph"> Jeżeli podobał Ci się artykuł
-                    <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.afrykadzika.pl&layout=button_count&size=small&width=83&height=20&appId"
-                            width="108" height="20" style="border:none;overflow:hidden"
-                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-                    go proszę.
-                </p>
 
-            </footer>
-
-        </section>
 
         <section class="blog__galery">
             <div class="slideshow">
@@ -188,17 +183,17 @@
                     <figcaption class="slide__name">Wieczór na plaży</figcaption>
                 </figure>
 
-                <a class="float__left" style="position:absolute;top:70%;left:10px;cursor:pointer"
+                <a class="float__left" style="position:absolute;top:70%;left:15px;cursor:pointer"
                    onclick="plusDivs(-1)">❮</a>
-                <a class="float__right" style="position:absolute;top:70%;right:10px;cursor:pointer"
+                <a class="float__right" style="position:absolute;top:70%;right:15px;cursor:pointer"
                    onclick="plusDivs(1)">❯</a>
 
 
             </div>
             <script src="../js/slideshow.js"></script>
         </section>
+</article>
 
-    </div>
 
     <aside class="article__blog__list">
         <ul class="blog__menu">

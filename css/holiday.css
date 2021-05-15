@@ -1,0 +1,36 @@
+.article__holiday__content, .article__header__content {
+    display:flex;
+    justify-content: space-between;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-size: 1em;
+
+}
+.article__photo__contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+}
+.article__paragraph__header {
+    width: 100%;
+    /*max-width: 1920px;*/
+    margin: 10px auto;
+    padding: 0 20px;
+    font-family: 'Courgette', cursive;
+    font-size: 1em;
+    font-weight: bold;
+}
+.article__paragraph__holiday__content{
+
+}
+/*.article__holiday__paragraph {*/
+/*    text-indent: 1em;*/
+/*    text-align: justify;*/
+/*    padding: 10px;*/
+/*    font-size: .8em;*/
+/*}*/
+
+
+/*.article__holiday {*/
+/*    margin-top: 5px;*/
+/*    margin-bottom: 5px;*/
+/*}*/
