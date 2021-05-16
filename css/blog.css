@@ -22,12 +22,6 @@
     width: 80%;
 }
 
-.article__content {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-
-}
 
 .article__paragraph {
     margin: auto 10px;
@@ -77,7 +71,7 @@
     font-family: 'Courgette', cursive;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 10px;
 }
 
@@ -96,6 +90,7 @@
 .article__blog__link:hover {
     color: var(--hover_color);
 }
+
 
 .blog__menu__item__text__content {
     text-align: justify;

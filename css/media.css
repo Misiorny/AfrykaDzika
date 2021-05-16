@@ -1,9 +1,10 @@
 @media all and (max-width: 900px) {
     /*Początek dla index.html*/
-    .header{
+    .header {
         margin: 0 auto;
         padding: 0;
     }
+
     .topbar {
         flex-direction: column;
         margin: 0;
@@ -26,14 +27,15 @@
     .article__header {
         width: 100%;
         margin: 0;
-        padding: 0;
+        padding: 0 10px;
         font-size: 1em;
         font-weight: normal;
     }
 
     .article__content {
         flex-direction: column;
-        margin:0;
+        margin: 0;
+        padding: 0;
     }
 
     .article__paragraph {
@@ -52,7 +54,7 @@
 
 
     .article__figcaption {
-        padding-left: 5px;
+        padding-left: 10px;
         margin: 0;
         font-size: 0.75em;
         font-weight: normal;
@@ -60,8 +62,9 @@
     }
 
     .holiday__img {
-        width: 90vw;
-        margin: auto 5px;
+        width: 100%;
+        height: auto;
+        margin: 0;
     }
 
     .article__footer__paragraph {
@@ -69,11 +72,16 @@
         font-size: .5em;
     }
 
-
     .footer {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-evenly;
 
     }
+
+    .footer__copyright {
+        width: 60px;
+    }
+
     /*Koniec dla index.html
     * poczatek blog.html i reszta stron blogu
     */
@@ -102,13 +110,28 @@
     /*    flex-direction: column;*/
     /*    padding: 5px;*/
     /*}*/
-
     .article__paragraph {
         margin: 5px;
         text-indent: .5em;
         text-align: justify;
         font-weight: normal;
         font-size: 0.75em;
+    }
+
+    .article__photo__content {
+        margin: 5px;
+        text-indent: .5em;
+        text-align: justify;
+        font-weight: normal;
+        font-size: 0.75em;
+    }
+
+    .article__paragraph__header {
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        font-size: .8em;
+        font-weight: normal;
     }
 
     .slideshow {
@@ -118,7 +141,7 @@
     }
 
     .slide__img {
-        max-width: 90vw;
+        max-width: 100%;
         justify-items: center;
     }
 
@@ -128,7 +151,7 @@
     }
 
     .article__blog__list {
-        width: 100vw;
+        width: 100%;
         margin: 5px auto;
         padding: 0;
         font-size: .5em;
@@ -138,13 +161,16 @@
     .article__blog__link {
         font-weight: normal;
     }
-    .blog__menu{
+
+    .blog__menu {
         margin: auto;
+        align-items: center;
 
     }
 
     .blog__menu__item__text, .blog__menu__item__text__content {
         visibility: hidden;
+        font-size: 0;
     }
 
     /*Koniec dla blog.html
@@ -152,6 +178,12 @@
     .article__holiday__content {
         display: flex;
         flex-direction: column;
+
+    }
+
+    .article__photo__contact {
+        display: flex;
+        justify-content: space-evenly;
 
     }
 

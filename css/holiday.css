@@ -5,6 +5,14 @@
     font-size: 1em;
 
 }
+.article__photo__content {
+    text-indent: 1em;
+    text-align: justify;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
 .article__photo__contact {
     display: flex;
     justify-content: space-evenly;
@@ -12,7 +20,6 @@
 }
 .article__paragraph__header {
     width: 100%;
-    /*max-width: 1920px;*/
     margin: 10px auto;
     padding: 0 20px;
     font-family: 'Courgette', cursive;
