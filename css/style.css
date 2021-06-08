@@ -107,6 +107,7 @@ body {
     justify-content: space-evenly;
 }
 
+
 .article__paragraph {
     text-indent: 1em;
     text-align: justify;
@@ -115,6 +116,7 @@ body {
     font-weight: bold;
 
 }
+
 
 .article__footer {
     display: flex;
@@ -137,6 +139,7 @@ body {
     align-items: center;
 
 }
+
 
 /*!*Responsive Web Design *! in media.css*/
 
