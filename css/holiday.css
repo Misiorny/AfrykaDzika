@@ -1,43 +1,40 @@
-.article__holiday__content, .article__header__content {
+.main__holiday {
+    margin: 10px auto;
+    max-width: 1920px;
+    padding: 10px;
+    background-color: var(--box_color);
+    color: var(--font_color);
+}
+.article__holiday__content {
     display:flex;
     justify-content: space-between;
-    /*font-family: 'Open Sans', sans-serif;*/
-    font-size: 1em;
-
+    font-family:var(--content_font);
+    padding:10px;
+}
+.article__foto {
+    margin-right: 5px;
 }
 .article__photo__content {
     text-indent: 1em;
     text-align: justify;
     padding: 10px;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
-
 }
 .article__photo__contact {
     display: flex;
-    justify-content: space-evenly;
+    text-align: center;
+    justify-content: center;
     margin: 10px auto;
+    font-family:var(--header_font);
+    font-size: 0.5em;
+    font-weight:bold;
 }
 .article__paragraph__header {
     width: 100%;
     margin: 10px auto;
     padding: 0 20px;
-    font-family: 'Courgette', cursive;
-    font-size: 1em;
+    font-family:var(--header_font);
+    font-size: 1.5em;
     font-weight: bold;
 }
-.article__paragraph__holiday__content{
-
-}
-/*.article__holiday__paragraph {*/
-/*    text-indent: 1em;*/
-/*    text-align: justify;*/
-/*    padding: 10px;*/
-/*    font-size: .8em;*/
-/*}*/
-
-
-/*.article__holiday {*/
-/*    margin-top: 5px;*/
-/*    margin-bottom: 5px;*/
-/*}*/

@@ -1,1 +1,0 @@
-alert('Hej! Niestety nie udało mi się ustawić wszystkiego jak chciałem. Dlatego działa tylko pierwsza strona. Ale postaram się jak najszybciej uzupełnić zaległości. Mimo wszystko zapraszam do przeczytania. ');
