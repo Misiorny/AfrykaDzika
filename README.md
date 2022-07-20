@@ -1,4 +1,5 @@
 #Afryka Dzika
+
 Web page about my traveling hobby.
 
 ## General Information
